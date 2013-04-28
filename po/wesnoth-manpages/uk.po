@@ -1,0 +1,1636 @@
+# Ukrainian translations for PACKAGE package
+# Copyright (C) 2012 Wesnoth Development Team
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2012.
+# Igor Paliychuk <mansonigor@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.10\n"
+"POT-Creation-Date: 2012-01-06 12:00+0100\n"
+"PO-Revision-Date: 2012-08-18 19:32+0200\n"
+"Last-Translator: Igor Paliychuk <mansonigor@gmail.com>\n"
+"Language-Team: none\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. type: TH
+#: ../../doc/man/wesnoth.6:16
+#, no-wrap
+msgid "WESNOTH"
+msgstr "ВЕСНОТ"
+
+#. type: TH
+#: ../../doc/man/wesnoth.6:16 ../../doc/man/wesnothd.6:16
+#, no-wrap
+msgid "2011"
+msgstr "2011"
+
+#. type: TH
+#: ../../doc/man/wesnoth.6:16
+#, no-wrap
+msgid "wesnoth"
+msgstr "wesnoth"
+
+#. type: TH
+#: ../../doc/man/wesnoth.6:16
+#, no-wrap
+msgid "Battle for Wesnoth"
+msgstr "Битва за Веснот"
+
+#. type: SH
+#: ../../doc/man/wesnoth.6:18 ../../doc/man/wesnothd.6:18
+#, no-wrap
+msgid "NAME"
+msgstr "НАЗВА"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:20
+msgid "wesnoth - Battle for Wesnoth, a turn-based fantasy strategy game"
+msgstr "wesnoth - Битва за Веснот, покрокова стратегічна гра в жанрі фентезі"
+
+#. type: SH
+#: ../../doc/man/wesnoth.6:21 ../../doc/man/wesnothd.6:24
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "ОГЛЯД"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:26
+msgid "B<wesnoth> [I<OPTIONS>] [I<PATH_TO_DATA>]"
+msgstr "B<wesnoth> [I<ОПЦІЇ>] [I<ШЛЯХ_ДО_ДАНИХ>]"
+
+#. type: SH
+#: ../../doc/man/wesnoth.6:27 ../../doc/man/wesnothd.6:40
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "ОПИС"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:32
+msgid "Battle for B<Wesnoth> is a turn-based fantasy strategy game."
+msgstr "Битва за B<Веснот> це покрокова стратегічна гра в жанрі фентезі."
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:42
+msgid ""
+"Defeat all enemy leaders using a well-chosen cadre of troops, taking care to "
+"manage your resources of gold and villages. All units have their own "
+"strengths and weaknesses; to win, deploy your forces to their best advantage "
+"while denying your foes the chance to do the same. As units gain experience, "
+"they acquire new abilities and become more powerful. Play in your own "
+"language and test your skill against a smart computer opponent, or join "
+"Wesnoth's large community of online players. Create your own custom units, "
+"scenarios or campaigns, and share them with others."
+msgstr ""
+"Подолайте всіх ватажків противників за допомогою вибраних військ, вміло "
+"розпоряджаючись своїми золотом і селами. У кожного бійця є свої переваги і "
+"недоліки; щоб перемогти, розгорніть свої війська якнайефективніше і не дайте "
+"своїм ворогам зробити те ж саме. Отримуючи досвід, бійці стають сильнішими "
+"та освоюють нові уміння. Ви можете грати на своїй рідній мові і перевірити "
+"свої здібності проти розумного комп'ютерного опонента або ж приєднатися до "
+"величезної спільноті гравців Wesnoth по мережі. Ви можете створити власні "
+"типи бійців, сценарії або кампанії і поділитися ними з іншими."
+
+#. type: SH
+#: ../../doc/man/wesnoth.6:43 ../../doc/man/wesnothd.6:45
+#, no-wrap
+msgid "OPTIONS"
+msgstr "ОПЦІЇ"
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:45
+#, no-wrap
+msgid "B<--bpp>I<\\ number>"
+msgstr "B<--bpp>I<\\ число>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:49
+msgid "sets BitsPerPixel value. Example: B<--bpp 32>"
+msgstr "задає бітність кольору. Приклад: B<--bpp 32>"
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:49
+#, no-wrap
+msgid "B<-c, --campaign \\ [E<lt>id_campaignE<gt>]>"
+msgstr "B<-c, --campaign \\ [E<lt>id_кампаніїE<gt>]>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:54
+msgid ""
+"goes directly to the campaign with id E<lt>id_campaignE<gt>. A selection "
+"menu will appear if no id was specified.  B<Note:> When using this switch "
+"please ensure that you specify the data directory path as the final argument "
+"aswell, otherwise the game will take the campaign/scenario id as the data "
+"dir."
+msgstr ""
+"переходить безпосередньо до кампанії з ідентифікатором "
+"E<lt>id_кампаніїE<gt>. Якщо ідентифікатор не був вказаний, з'явиться меню "
+"вибору. B<Note:> При використанні цього ключа переконайтеся, що ви вказали "
+"шлях каталогу даних в якості останнього аргументу, інакше гра сприйме id "
+"кампанії/сценарію за теку даних."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:54
+#, no-wrap
+msgid "B<--campaign-difficulty E<lt>difficultyE<gt>>"
+msgstr "B<--campaign-difficulty E<lt>складністьE<gt>>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:57
+msgid ""
+"The difficulty of the specified campaign (1 to max). If none specified, the "
+"campaign difficulty selection widget will appear."
+msgstr ""
+"Складність зазначеної кампанії (від 1 до макс). Якщо вона не зазначена, то "
+"з'явиться діалог вибору складності кампанії."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:57
+#, no-wrap
+msgid "B<--campaign-scenario E<lt>id_scenarioE<gt>>"
+msgstr "B<--campaign-scenario E<lt>id_сценаріюE<gt>>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:60
+msgid ""
+"The id of the scenario from the specified campaign. The default is the first "
+"scenario."
+msgstr ""
+"Ідентифікатор сценарію з зазначеної кампанії. За умовчанням це перший "
+"сценарій."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:60
+#, no-wrap
+msgid "B<--config-dir>I<\\ name>"
+msgstr "B<--config-dir>I<\\ назва>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:67
+msgid ""
+"sets the user configuration directory to I<name> under $HOME or \"My "
+"Documents\\eMy Games\" for windows.  You can also specify an absolute path "
+"for the configuration directory outside the $HOME or \"My Documents\\eMy "
+"Games\""
+msgstr ""
+"змінює теку конфігурації користувача на I<name> в $HOME або \"My Documents"
+"\\eMy Games\" для Windows. Ви також можете вказати абсолютний шлях до "
+"директорії конфігурації поза межами $HOME чи \"My Documents\\eMy Games\""
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:67
+#, no-wrap
+msgid "B<--config-path>"
+msgstr "B<--config-path>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:70
+msgid "prints the path of the user configuration directory and exits."
+msgstr "виводить шлях теки налаштувань користувача та виходить."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:70
+#, no-wrap
+msgid "B<--data-dir E<lt>directoryE<gt>>"
+msgstr "B<--data-dir E<lt>текаE<gt>>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:73
+msgid "overrides the data directory with the one specified"
+msgstr "перевизначає теку даних вказаною текою"
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:73
+#, no-wrap
+msgid "B<-d, --debug>"
+msgstr "B<-d, --debug>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:77
+msgid ""
+"enables additional command mode options in-game (see the wiki page at http://"
+"www.wesnoth.org/wiki/CommandMode for more information about command mode)."
+msgstr ""
+"увімкнути додаткові команди в грі (див. wiki-сторінку на сайті http://www."
+"wesnoth.org/wiki/CommandMode для отримання інформації про командний режим)."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:77
+#, no-wrap
+msgid "B<-e,\\ --editor>I<\\ file>"
+msgstr "B<-e,\\ --editor>I<\\ файл>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:83
+msgid ""
+"start the in-game map editor directly. If I<file> is specified, equivalent "
+"to B<-l --load>"
+msgstr ""
+"безпосередньо запустити ігровий редактор карт. Якщо вказаний I<file>, це "
+"еквівалентно B<-l --load>"
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:83
+#, no-wrap
+msgid "B<--fps>"
+msgstr "B<--fps>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:87
+msgid ""
+"displays the number of frames per second the game is currently running at, "
+"in a corner of the screen."
+msgstr "відображати в кутку екрану кількість кадрів на секунду."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:87
+#, no-wrap
+msgid "B<-f, --fullscreen>"
+msgstr "B<-f, --fullscreen>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:90
+msgid "runs the game in full screen mode."
+msgstr "стартує гру в повноекранному режимі."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:90
+#, no-wrap
+msgid "B<--gunzip>I<\\ infile.gz>"
+msgstr "B<--gunzip>I<\\ infile.gz>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:96
+msgid ""
+"decompresses a file which should be in gzip format and stores it without "
+"the .gz suffix. The I<infile.gz> will be removed."
+msgstr ""
+"розпакувати файл, який повинен бути в форматі gzip і зберегти його без "
+"розширення .gz. Файл I<infile.gz> буде видалений."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:96
+#, no-wrap
+msgid "B<--gzip>I<\\ infile>"
+msgstr "B<--gzip>I<\\ infile>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:102
+msgid ""
+"compresses a file in gzip format, stores it as I<infile>.gz and removes "
+"I<infile>."
+msgstr ""
+"стиснути файл у формат gzip, зберегти його як I<infile>.gz і видалити "
+"I<infile>."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:102 ../../doc/man/wesnothd.6:55
+#, no-wrap
+msgid "B<-h, --help>"
+msgstr "B<-h, --help>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:105
+msgid ""
+"displays a summary of command line options to standard output, and exits."
+msgstr ""
+"вивести перелік параметрів командного рядка в стандартний вивід і вийти."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:105
+#, no-wrap
+msgid "B<-l,\\ --load>I<\\ file>"
+msgstr "B<-l,\\ --load>I<\\ файл>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:117
+msgid ""
+"loads the savegame I<file> from the standard save game directory.  If the B<-"
+"e> or B<--editor> option is used as well, starts the editor with the map "
+"from I<file> open. If it is a directory, the editor will start with a load "
+"map dialog opened there."
+msgstr ""
+"вантажує збереження I<file> зі стандартної теки збкрежень. Якщо "
+"використовуються опції B<-e> чи B<--editor>, запускає редактор з відкритою "
+"картою  з файлу I<file>. Якщо це тека, редактор розпочне роботу з діалогу "
+"завантаження карти з цієї теки."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:117 ../../doc/man/wesnothd.6:58
+#, no-wrap
+msgid "B<--log->I<level>B<=>I<domain1>B<,>I<domain2>B<,>I<...>"
+msgstr "B<--log->I<рівень>B<=>I<домен1>B<,>I<домен2>B<,>I<...>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:126
+msgid ""
+"sets the severity level of the log domains.  B<all> can be used to match any "
+"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ "
+"B<debug>.  By default the B<error> level is used."
+msgstr ""
+"встановити рівень серйозності налагоджувальних доменів. B<all> відповідає "
+"будь-якому домену. Доступні рівні: B<error>,\\ B<warning>,\\ B<info>,\\ "
+"B<debug>.  Типовим рівнем є B<error>."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:126
+#, no-wrap
+msgid "B<--logdomains\\ [filter]>"
+msgstr "B<--logdomains\\ [фільтр]>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:131
+msgid ""
+"lists defined log domains (only the ones containing B<filter> if used) and "
+"exits"
+msgstr ""
+"перелічує встановлені налагоджувальні домени (лише ті, що містять B<filter>, "
+"якщо використовується) і виходить"
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:131
+#, no-wrap
+msgid "B<--max-fps>"
+msgstr "B<--max-fps>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:136
+msgid ""
+"the number of frames per second the game can show, the value should be "
+"between the 1 and 1000, the default is B<50>."
+msgstr ""
+"кількість кадрів на секунду, яку може відобразити гра, значення повинно бути "
+"між 1 та 1000, типове значення - B<50>."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:136
+#, no-wrap
+msgid "B<-m, --multiplayer>"
+msgstr "B<-m, --multiplayer>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:143
+msgid ""
+"runs a multiplayer game. There are additional options that can be used "
+"together with B<--multiplayer> as explained below. Only these additional "
+"options can follow B<--multiplayer>."
+msgstr ""
+"запускає багатокористувацьку гру. Разом з B<--multiplayer> можуть "
+"використовуватися додаткові параметри, пояснені нижче. Лише ці додаткові "
+"параметри можуть слідувати після B<--multiplayer>."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:143
+#, no-wrap
+msgid "B<--no-delay>"
+msgstr "B<--no-delay>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:147
+msgid ""
+"runs the game without any delays for graphic benchmarking. This is "
+"automatically enabled by B<--nogui>."
+msgstr ""
+"запустити гру без затримки для еталонного тестування графіки. Автоматично "
+"вмикається при використанні B<--nogui>."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:147
+#, no-wrap
+msgid "B<--nocache>"
+msgstr "B<--nocache>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:150
+msgid "disables caching of game data."
+msgstr "вимикає кешування ігрових даних."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:150
+#, no-wrap
+msgid "B<--nomusic>"
+msgstr "B<--nomusic>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:153
+msgid "runs the game without music."
+msgstr "стартує гру без музики."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:153
+#, no-wrap
+msgid "B<--nosound>"
+msgstr "B<--nosound>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:156
+msgid "runs the game without sounds and music."
+msgstr "стартує гру без звуку та музики."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:156
+#, no-wrap
+msgid "B<--path>"
+msgstr "B<--path>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:159
+msgid "prints the name of the game data directory and exits."
+msgstr "вивести назву каталогу даних гри і вийти."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:159
+#, no-wrap
+msgid "B<--preprocess, -p[=E<lt>define1E<gt>,E<lt>define2E<gt>,...] E<lt>file/folderE<gt> E<lt>target directoryE<gt>>"
+msgstr "B<--preprocess, -p[=E<lt>визначення1E<gt>,E<lt>визначення2E<gt>,...] E<lt>файл/текаE<gt> E<lt>цільова текаE<gt>>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:173
+msgid ""
+"preprocesses a specified file/folder. The file(s) will be written in "
+"specified target directory: a plain cfg file and a processed cfg file. If a "
+"folder is specified, it will be preprocessed recursively based on the known "
+"preprocessor rules. The common macroses from the data/core/macros will be "
+"preprocessed before the specified resources.  B<define1,define2,...> - the "
+"extra defines will be added before processing the files. If you want to add "
+"them you must add the '=' character before.  If 'SKIP_CORE' is in the define "
+"list the data/core won't be preprocessed.  Example: B<-p ~/wesnoth/data/"
+"campaigns/tutorial ~/result> or B<-p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/"
+"data/campaign/camp ~/result>"
+msgstr ""
+"попередньо обробляє зазначений файл/теку. Файл(и) буде записаний у вказану "
+"цільову теку: звичайний файл cfg та оброблений файл cfg. Якщо вказана тека, "
+"вона буде обробляється рекурсивно на основі відомих правил препроцесора. "
+"Загальні макроси з даних/ядра/макроси будуть оброблятись перед вказаними "
+"ресурсами. B<define1,define2,...> - додаткові визначення будуть додані перед "
+"обробкою файлів. Якщо ви хочете їх додати, необхідно додати символ '=' "
+"раніше. Якщо в списку визначень міститься 'SKIP_CORE', дані/ядро оброблятись "
+"не будуть. Приклад: B<-p ~/wesnoth/data/campaigns/tutorial ~/result> або B<-"
+"p=MULTIPLAYER,MY_OWN_CAMPAIGN ~/wesnoth/data/campaign/camp ~/result>"
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:173
+#, no-wrap
+msgid "B<--preprocess-input-macros E<lt>source fileE<gt>>"
+msgstr "B<--preprocess-input-macros E<lt>вхідний файлE<gt>>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:177
+msgid ""
+"used only by the '--preprocess' command.  Specifies a file that contains "
+"[preproc_define]s to be included before preprocessing."
+msgstr ""
+"використовується лише командою '--preprocess'. Вказує файл, який містить "
+"[preproc_define]и, що повинні бути включені до попередньої обробки."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:177
+#, no-wrap
+msgid "B<--preprocess-output-macros [E<lt>target fileE<gt>]>"
+msgstr "B<--preprocess-output-macros [E<lt>цільовий файлE<gt>]>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:183
+msgid ""
+"used only by the '--preprocess' command.  Will output all preprocessed "
+"macros in the target file. If the file is not specified the output will be "
+"file '_MACROS_.cfg' in the target directory of preprocess's command.  This "
+"switch should be typed before the --preprocess command."
+msgstr ""
+"використовується лише командою '--preprocess'. Буде виводити всі попередньо "
+"оброблені макроси в цільовий файл. Якщо файл не вказаний, то вивід піде в "
+"файл \"_MACROS_.cfg\" в цільовій теці команди попередньої обробки. Цей "
+"перемикач повинен бути заданий перед командою --preprocess."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:183
+#, no-wrap
+msgid "B<-r\\ >I<X>B<x>I<Y>B<,\\ --resolution\\ >I<X>B<x>I<Y>"
+msgstr "B<-r\\ >I<X>B<x>I<Y>B<,\\ --resolution\\ >I<X>B<x>I<Y>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:187
+msgid "sets the screen resolution. Example: B<-r 800x600>"
+msgstr "задає розширення екрану. Приклад: B<-r 800x600>"
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:187
+#, no-wrap
+msgid "B<-s,\\ --server\\ [host]>"
+msgstr "B<-s,\\ --server\\ [хост]>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:191
+msgid ""
+"connects to the specified host if any, otherwise connect to the first server "
+"in preferences. Example: B<--server server.wesnoth.org>"
+msgstr ""
+"під'єднатись до вказаного хосту якщо такий є, інакше під'єднатись до "
+"першого, вказаною в налаштуваннях. Наприклад: B<--server server.wesnoth.org>"
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:191
+#, no-wrap
+msgid "B<--strict-validation>"
+msgstr "B<--strict-validation>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:194
+msgid "validation errors are treated as fatal errors."
+msgstr "помилки перевірки розглядаються як фатальні."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:194
+#, no-wrap
+msgid "B<-t, --test>"
+msgstr "B<-t, --test>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:197
+msgid "runs the game in a small test scenario."
+msgstr "стартує гру в малому тестовому сценарії."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:197
+#, no-wrap
+msgid "B<--validcache>"
+msgstr "B<--validcache>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:200
+msgid "assumes that the cache is valid. (dangerous)"
+msgstr "припускає, що кеш коректний. (небезпечно)"
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:200
+#, no-wrap
+msgid "B<-v, --version>"
+msgstr "B<-v, --version>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:203
+msgid "shows the version number and exits."
+msgstr "показує номер версії та виходить."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:203
+#, no-wrap
+msgid "B<-w, --windowed>"
+msgstr "B<-w, --windowed>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:206
+msgid "runs the game in windowed mode."
+msgstr "стартує гру у віконному режимі."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:206
+#, no-wrap
+msgid "B<--with-replay>"
+msgstr "B<--with-replay>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:211
+msgid "replays the game loaded with the B<--load> option."
+msgstr "відтворює гру, завантажену опцією B<--load>."
+
+#. type: SH
+#: ../../doc/man/wesnoth.6:212
+#, no-wrap
+msgid "Options for --multiplayer"
+msgstr "Опції для --multiplayer"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:219
+msgid ""
+"The side-specific multiplayer options are marked with I<number>.  I<number> "
+"has to be replaced by a side number. It usually is 1 or 2 but depends on the "
+"number of players possible in the chosen scenario."
+msgstr ""
+"Параметри, специфічні для певної сторони в мультиплеєрі відзначені "
+"I<числом>. I<число> замінюється номером сторони. Зазвичай це 1 або 2, але "
+"воно залежить від кількості можливих у вибраному сценарії гравців."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:219
+#, no-wrap
+msgid "B<--ai_config>I<number>B<=>I<value>"
+msgstr "B<--ai_config>I<число>B<=>I<значення>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:222
+msgid ""
+"selects a configuration file to load for the AI controller for this side."
+msgstr ""
+"вибрати файл конфігурації з оператором Штучного Інтелекту для даної сторони."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:222
+#, no-wrap
+msgid "B<--algorithm>I<number>B<=>I<value>"
+msgstr "B<--algorithm>I<число>B<=>I<значення>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:229
+msgid ""
+"selects a non-standard algorithm to be used by the AI controller for this "
+"side. Available values: B<idle_ai> and B<sample_ai>."
+msgstr ""
+"вибрати для даної сторони нестандартний алгоритм оператора ШІ. Доступні "
+"значення: B<idle_ai> та B<sample_ai>."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:229
+#, no-wrap
+msgid "B<--controller>I<number>B<=>I<value>"
+msgstr "B<--controller>I<число>B<=>I<значення>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:235
+msgid ""
+"selects the controller for this side. Available values: B<human> and B<ai>."
+msgstr ""
+"вибрати оператора (тип гравця) для даної сторони. Доступні значення: "
+"B<human> та B<ai>."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:235
+#, no-wrap
+msgid "B<--era=>I<value>"
+msgstr "B<--era=>I<значення>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:242
+msgid ""
+"use this option to play in the selected era instead of the B<Default> era. "
+"The era is chosen by an id. Eras are described in the B<data/multiplayer/"
+"eras.cfg> file."
+msgstr ""
+"використовуйте для гри в обраній ері замість ери B<Default>. Ера вибирається "
+"за ідентифікатором. Вони описані у файлі B<data/multiplayer/eras.cfg>."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:242
+#, no-wrap
+msgid "B<--exit-at-end>"
+msgstr "B<--exit-at-end>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:246
+msgid ""
+"exits once the scenario is over, without displaying victory/defeat dialog "
+"which requires the user to click OK.  This is also used for scriptable "
+"benchmarking."
+msgstr ""
+"вийти по завершенню сценарію, без відображення діалогу перемоги/поразки, що "
+"вимагає від користувача підтвердження. Це також використовується для "
+"скриптового тестування."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:246
+#, no-wrap
+msgid "B<--nogui>"
+msgstr "B<--nogui>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:251
+msgid ""
+"runs the game without the GUI. Must appear before B<--multiplayer> to have "
+"the desired effect."
+msgstr ""
+"запустити гру без GUI. Повинен вказуватися перед B<--multiplayer> для "
+"досягнення бажаного ефекту."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:251
+#, no-wrap
+msgid "B<--parm>I<number>B<=>I<name>B<:>I<value>"
+msgstr "B<--parm>I<number>B<=>I<name>B<:>I<value>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:260
+msgid ""
+"sets additional parameters for this side. This parameter depends on the "
+"options used with B<--controller> and B<--algorithm>.  It should only be "
+"useful for people designing their own AI. (not yet documented completely)"
+msgstr ""
+"встановити додаткові параметри для сторони. Параметр залежить від "
+"параметрів, використаних в B<--controller> та B<--algorithm>. Це повинно "
+"бути корисним для авторів власного ШІ (поки не документовано)"
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:260
+#, no-wrap
+msgid "B<--scenario=>I<value>"
+msgstr "B<--scenario=>I<значення>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:264
+msgid ""
+"selects a multiplayer scenario by id. The default scenario id is "
+"B<multiplayer_The_Freelands>."
+msgstr ""
+"вибрати багатокористувацький сценарій за ідентифіктаором. Сценарій за "
+"замовчуванням - B<multiplayer_The_Freelands>."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:264
+#, no-wrap
+msgid "B<--side>I<number>B<=>I<value>"
+msgstr "B<--side>I<number>B<=>I<value>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:269
+msgid ""
+"selects a faction of the current era for this side. The faction is chosen by "
+"an id. Factions are described in the data/multiplayer.cfg file."
+msgstr ""
+"вибрати фракцію поточної ери для даної сторони. Фракція вибирається за "
+"ідентифікатором. Фракції описані у файлі data/multiplayer.cfg."
+
+#. type: TP
+#: ../../doc/man/wesnoth.6:269
+#, no-wrap
+msgid "B<--turns=>I<value>"
+msgstr "B<--turns=>I<значення>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:273
+msgid "sets the number of turns for the chosen scenario. The default is B<50>."
+msgstr "встановити к-сть ходів для обраного сценарію. Типовим є B<50>."
+
+#. type: SH
+#: ../../doc/man/wesnoth.6:274 ../../doc/man/wesnothd.6:265
+#, no-wrap
+msgid "EXIT STATUS"
+msgstr "КОД ВИХОДУ"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:277
+msgid ""
+"Normal exit status is 0. An exit status of 1 indicates an (SDL, video, "
+"fonts, etc) initialization error. An exit status of 2 indicates an error "
+"with the command line options."
+msgstr ""
+"Нормальний код виходу 0. Код виходу 1 означає помилку ініціалізації (SDL, "
+"відео, шрифти, ін.) Код виходу 2 означає помилку в параметрах командного "
+"рядка."
+
+#. type: SH
+#: ../../doc/man/wesnoth.6:278 ../../doc/man/wesnothd.6:269
+#, no-wrap
+msgid "AUTHOR"
+msgstr "АВТОР"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:281
+msgid "Written by David White E<lt>davidnwhite@verizon.netE<gt>."
+msgstr "Написав Девід Уайт (David White) E<lt>davidnwhite@verizon.netE<gt>."
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:283
+msgid ""
+"Edited by Nils Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon."
+"netE<gt> and Soliton E<lt>soliton.de@gmail.comE<gt>."
+msgstr ""
+"Відредагували Nils Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott "
+"E<lt>ott@gaon.netE<gt> та Soliton E<lt>soliton.de@gmail.comE<gt>."
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:285
+msgid ""
+"This manual page was originally written by Cyril Bouthors "
+"E<lt>cyril@bouthors.orgE<gt>."
+msgstr ""
+"Початковий автор сторінки - Cyril Bouthors E<lt>cyril@bouthors.orgE<gt>."
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:287 ../../doc/man/wesnothd.6:276
+msgid "Visit the official homepage: http://www.wesnoth.org/"
+msgstr "Загляньте на офіційну сторінку: http://www.wesnoth.org/"
+
+#. type: SH
+#: ../../doc/man/wesnoth.6:288 ../../doc/man/wesnothd.6:277
+#, no-wrap
+msgid "COPYRIGHT"
+msgstr "АВТОРСЬКІ ПРАВА"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:291 ../../doc/man/wesnothd.6:280
+msgid "Copyright \\(co 2003-2011 David White E<lt>davidnwhite@verizon.netE<gt>"
+msgstr ""
+"Авторське право \\(co 2003-2011 Девід Уайт (David White) "
+"E<lt>davidnwhite@verizon.netE<gt>"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:294 ../../doc/man/wesnothd.6:283
+msgid ""
+"This is Free Software; this software is licensed under the GPL version 2, as "
+"published by the Free Software Foundation.  There is NO warranty; not even "
+"for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+msgstr ""
+"Це Вільне Програмне Забезпечення; воно ліцензоване під ліцензією GPL версії "
+"2, що опублікована Free Software Foundation. Гарантії НЕ надаються; ні щодо "
+"ПРОДАЖУ, ні щодо ПРИДАТНОСТІ ДЛЯ КОНКРЕТНИХ ЦІЛЕЙ."
+
+#. type: SH
+#: ../../doc/man/wesnoth.6:295 ../../doc/man/wesnothd.6:284
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "ДИВ. ТАКОЖ"
+
+#. type: Plain text
+#: ../../doc/man/wesnoth.6:297
+msgid "B<wesnothd>(6)."
+msgstr "B<wesnothd>(6)."
+
+#. type: TH
+#: ../../doc/man/wesnothd.6:16
+#, no-wrap
+msgid "WESNOTHD"
+msgstr "WESNOTHD"
+
+#. type: TH
+#: ../../doc/man/wesnothd.6:16
+#, no-wrap
+msgid "wesnothd"
+msgstr "wesnothd"
+
+#. type: TH
+#: ../../doc/man/wesnothd.6:16
+#, no-wrap
+msgid "Battle for Wesnoth multiplayer network daemon"
+msgstr "Мережний демон мультиплеєру Битви за Веснот"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:23
+msgid "wesnothd - Battle for B<Wesnoth> multiplayer network daemon"
+msgstr "wesnothd - мережний демон мультиплеєру Битви за B<Веснот>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:36
+msgid ""
+"B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<path>\\|] [\\|B<-p> I<port>\\|] [\\|"
+"B<-t> I<number>\\|] [\\|B<-T> I<number>\\|]"
+msgstr ""
+"B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<шлях>\\|] [\\|B<-p> I<порт>\\|] [\\|"
+"B<-t> I<число>\\|] [\\|B<-T> I<число>\\|]"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:39
+msgid "B<wesnothd> B<-V>"
+msgstr "B<wesnothd> B<-V>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:44
+msgid ""
+"Manages Battle for Wesnoth multiplayer games. See http://www.wesnoth.org/"
+"wiki/ServerAdministration on what commands the server accepts via the "
+"wesnoth client (/query ...) or the fifo."
+msgstr ""
+"Управління багатокористувацькими іграми Битви за Веснот. Див. http://www."
+"wesnoth.org/wiki/ServerAdministration щоб дізнатися які команди сервер може "
+"приймати через клієнт wesnoth (/query ...) або firo."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:47
+#, no-wrap
+msgid "B<-c\\ >I<path>B<,\\ --config>I<\\ path>"
+msgstr "B<-c\\ >I<шлях>B<,\\ --config>I<\\ шлях>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:52
+msgid ""
+"tells wesnothd where to find the config file to use. See the section "
+"B<SERVER CONFIG> below for the syntax. You can reload the config with "
+"sending SIGHUP to the server process."
+msgstr ""
+"вказує де розміщений конфігураційний файл wesnothd. Див. B<ПАРАМЕТРИ "
+"СЕРВЕРА> нижче для опису синтаксису. Ви можете перезавантажити файл "
+"параметрів відправивши сигнал SIGHUP серверному процесу."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:52
+#, no-wrap
+msgid "B<-d, --daemon>"
+msgstr "B<-d, --daemon>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:55
+msgid "runs wesnothd as a daemon."
+msgstr "стартує wesnothd резидентно."
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:58
+msgid "tells you what the command line options do."
+msgstr "повідомляє, що роблять параметри командного рядка."
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:72
+msgid ""
+"sets the severity level of the log domains.  B<all> can be used to match any "
+"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ "
+"B<debug>.  By default the B<error> level is used and the B<info> level for "
+"the B<server> domain."
+msgstr ""
+"встановити рівень серйозності налагоджувальних доменів. B<all> відповідає "
+"будь-якому домену. Доступні рівні: B<error>,\\ B<warning>,\\ B<info>,\\ "
+"B<debug>. За замовчуванням використовується рівень B<error>, а для домену "
+"B<server> - рівень B<info>."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:72
+#, no-wrap
+msgid "B<-p\\ >I<port>B<,\\ --port>I<\\ port>"
+msgstr "B<-p\\ >I<порт>B<,\\ --port>I<\\ порт>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:77
+msgid ""
+"binds the server to the specified port. If no port is specified, port "
+"B<15000> will be used."
+msgstr ""
+"прив'язує сервер до зазначеного порту. Якщо порт не вказаний, "
+"використовується порт B<15000>."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:77
+#, no-wrap
+msgid "B<-t\\ >I<number>B<,\\ --threads>I<\\ number>"
+msgstr "B<-t\\ >I<число>B<,\\ --threads>I<\\ число>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:81
+msgid ""
+"sets the maximum number of waiting worker threads for network I/O to n "
+"(default: B<5>,\\ max:\\ B<30>)."
+msgstr ""
+"встановити максимальну кількість робочих потоків для мережевого вводу-виводу "
+"n (типовое B<5>,\\ макс:\\ B<30>)."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:81
+#, no-wrap
+msgid "B<-T\\ >I<number>B<,\\ --max-threads>I<\\ number>"
+msgstr "B<-T\\ >I<число>B<,\\ --max-threads>I<\\ число>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:88
+msgid ""
+"sets the maximum number of worker threads that will be created.  If set to "
+"B<0> there will be no limit (default: B<0>)."
+msgstr ""
+"встановити максимальну кількість створюваних робочих потоків. Якщо заданий "
+"B<0>, то обмежень немає (типово: B<0>)."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:88
+#, no-wrap
+msgid "B<-V, --version>"
+msgstr "B<-V, --version>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:91
+msgid "shows version number and exits."
+msgstr "показати версію та вийти."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:91
+#, no-wrap
+msgid "B<-v, --verbose>"
+msgstr "B<-v, --verbose>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:94
+msgid "turns debug logging on."
+msgstr "вмикає журнал налагодження."
+
+#. type: SH
+#: ../../doc/man/wesnothd.6:95
+#, no-wrap
+msgid "SERVER CONFIG"
+msgstr "ПАРАМЕТРИ СЕРВЕРА"
+
+#. type: SS
+#: ../../doc/man/wesnothd.6:97
+#, no-wrap
+msgid "The general syntax is:"
+msgstr "Узагальнений синтаксис:"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:101
+msgid "[I<tag>]"
+msgstr "[I<тег>]"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:103
+msgid "I<key>=\"I<value>\""
+msgstr "I<ключ>=\"I<значення>\""
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:105
+msgid "I<key>=\"I<value>,I<value>,...\""
+msgstr "I<ключ>=\"I<значення>,I<значення>,...\""
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:107
+msgid "[/I<tag>]"
+msgstr "[/I<тег>]"
+
+#. type: SS
+#: ../../doc/man/wesnothd.6:108
+#, no-wrap
+msgid "Global keys:"
+msgstr "Глобальні ключі:"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:110
+#, no-wrap
+msgid "B<allow_remote_shutdown>"
+msgstr "B<allow_remote_shutdown>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:114
+msgid ""
+"If set to B<no> (default), shut_down and restart requests are ignored unless "
+"they come from the fifo.  Set it to B<yes> to allow remote shutdown via a /"
+"query by an administrator."
+msgstr ""
+"Якщо встановлено B<no> (типово), запити вимкнення та переапуску (shut_down і "
+"restart) будуть проігноровані, тільки якщо вони не прийшли з fifo. Вкажіть "
+"B<yes> щоб дозволити віддалене вимикання адміністратором через /query."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:114
+#, no-wrap
+msgid "B<ban_save_file>"
+msgstr "B<ban_save_file>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:118
+msgid ""
+"Full or relative path to a (gzip compressed) file that the server can read "
+"and write.  Bans will be saved to this file and read again on server start."
+msgstr ""
+"Повний або відносний шлях до файлу (в форматі gzip), який сервер може читати "
+"і записувати. Бани будуть зберігатися тут і завантажуватися при старті "
+"сервера."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:118
+#, no-wrap
+msgid "B<compress_stored_rooms>"
+msgstr "B<compress_stored_rooms>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:121
+msgid ""
+"Determines whether the rooms file should be read and written to in "
+"compressed form. Defaults to B<yes>."
+msgstr ""
+"Визначає, чи файл кімнат повинен бути прочитаний та записаний в стислому "
+"вигляді. Типово - B<yes>."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:121
+#, no-wrap
+msgid "B<connections_allowed>"
+msgstr "B<connections_allowed>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:124
+msgid ""
+"The number of allowed connections from the same IP. B<0> means infinite. "
+"(default: B<5>)"
+msgstr ""
+"К-сть дозволених під'єднань з однієї IP-адреси. B<0> значить необмежено. "
+"(типове: B<5>)"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:124
+#, no-wrap
+msgid "B<disallow_names>"
+msgstr "B<disallow_names>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:131
+msgid ""
+"Names/nicks that are not accepted by the server. B<*> and B<?> from wildcard "
+"patterns are supported. See B<glob>(7)  for more details.  Default values "
+"(used if nothing is specified) are: B<*admin*,*admln*,*server*,ai,ai?,"
+"computer,human,network,player>."
+msgstr ""
+"Імена/ніки, які не приймаються сервером. Підтримуються шаблони підстановки "
+"B<*> та B<?>. Також дивіться B<glob>(7). Стандартні значення "
+"(використовуються, якщо нічого не зазначено):: B<*admin*,*admln*,*server*,ai,"
+"ai?,computer,human,network,player>."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:131
+#, no-wrap
+msgid "B<fifo_path>"
+msgstr "B<fifo_path>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:135
+msgid ""
+"The path to the fifo you can echo server commands into (same as /query ... "
+"from wesnoth).  If not specified defaults to the compile-time path (default: "
+"B</var/run/socket/wesnothd/socket>)."
+msgstr ""
+"Шлях до fifo, до якого ви можете відголошувати команди сервера (так само, "
+"як /query ... з wesnoth). Якщо не вказано, скидається до шляху, визначеного "
+"під час компіляції (типово: B</var/run/socket/wesnothd/socket>)."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:135
+#, no-wrap
+msgid "B<max_messages>"
+msgstr "B<max_messages>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:138
+msgid ""
+"The number of allowed messages in B<messages_time_period>. (default: B<4>)"
+msgstr ""
+"Кількість дозволених повідомлень за B<messages_time_period>. (типово: B<4>)"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:138
+#, no-wrap
+msgid "B<messages_time_period>"
+msgstr "B<messages_time_period>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:141
+msgid ""
+"The time period (in seconds) message flooding is detected in. (default: "
+"B<10> seconds)"
+msgstr ""
+"Відрізок часу (в секундах), протягом якого визначається флуд повідомлень. "
+"(типово: B<10> секунд)"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:141
+#, no-wrap
+msgid "B<motd>"
+msgstr "B<motd>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:144
+msgid "The message of the day."
+msgstr "Повідомлення дня."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:144
+#, no-wrap
+msgid "B<new_room_policy>"
+msgstr "B<new_room_policy>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:147
+msgid ""
+"Determines who can create new rooms on the server. Available values are "
+"B<everyone>, B<registered>, B<admin> and B<nobody>, and give the permission "
+"respectively to everyone, registered users, admin users or disables new room "
+"creation. Default value is B<everyone>."
+msgstr ""
+"Визначає, хто може створювати нові кімнати на сервері. Доступні значення "
+"B<everyone>, B<registered>, B<admin> та B<nobody>, вони дають дають дозвіл "
+"відповідно всім, зареєстрованим користувачам, адміністраторам або забороняє "
+"створення нових кімнат. Типове значення B<everyone>."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:147
+#, no-wrap
+msgid "B<passwd>"
+msgstr "B<passwd>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:150
+msgid ""
+"The password used to gain admin privileges (via B</query admin >I<password>)."
+msgstr ""
+"Пароль для отримання прав адміністратора (через B</query admin >I<пароль>)."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:150
+#, no-wrap
+msgid "B<replay_save_path>"
+msgstr "B<replay_save_path>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:153
+msgid ""
+"The directory where the server stores game replays. (Don't forget the "
+"trailing /!) Defaults to `' which means the directory wesnothd was started "
+"in."
+msgstr ""
+"Директорія, де сервер зберігає повтори ігор. (Не забудьте косу риску / в "
+"кінці!) Типове значення `' що означає директорію з якої запущений wesnothd."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:153
+#, no-wrap
+msgid "B<restart_command>"
+msgstr "B<restart_command>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:156
+msgid ""
+"The command that the server uses to start a new server process via the "
+"B<restart> command. (Can only be issued via the fifo. See the "
+"B<allow_remote_shutdown> setting.)"
+msgstr ""
+"Команда, яку використовує сервер, щоб запустити новий серверний процес за "
+"допомогою команди B<restart>. (Може бути заданий лише через fifo. Див. "
+"параметр B<allow_remote_shutdown>)."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:156
+#, no-wrap
+msgid "B<room_save_file>"
+msgstr "B<room_save_file>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:159
+msgid ""
+"Path to a file where the room info should be stored. This file is read on "
+"server startup and written to later. If empty or not set, rooms are not "
+"loaded and not saved."
+msgstr ""
+"Шлях до файлу, в якому зберігаються дані кімнати. Цей файл читається при "
+"старті сервера і пишеться пізніше. Якщо порожній або не заданий, кімнати не "
+"завантажуються і не зберігаються."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:159
+#, no-wrap
+msgid "B<save_replays>"
+msgstr "B<save_replays>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:162
+msgid ""
+"Defines whether the server will automatically save replays of games. "
+"(default: B<false>)"
+msgstr ""
+"Визначає чи буде сервер автоматично зберігати повтори ігор (типово: B<false>)"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:162
+#, no-wrap
+msgid "B<versions_accepted>"
+msgstr "B<versions_accepted>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:166
+msgid ""
+"A comma separated list of version strings to be accepted by the server. B<*> "
+"and B<?> from wildcard patterns are supported.  (defaults to the "
+"corresponding wesnoth version)"
+msgstr ""
+"Перелік версій, що сприймаються сервером, розділені комами. Підтримуються "
+"шаблони підстановки B<*> and B<?>.  (скидає на відповідну версію wesnoth)"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:168
+msgid "Example: B<versions_accepted=\"*\"> accepts any version string."
+msgstr "Приклад: B<versions_accepted=\"*\"> приймає рядок з будь-якою версією."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:168
+#, no-wrap
+msgid "B<user_handler>"
+msgstr "B<user_handler>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:173
+msgid ""
+"The name of the user handler to use. Currently available user handlers are "
+"B<forum> (to connect wesnothd to a phpbb forum database) and B<sample> (a "
+"sample implementation of the user handler interface, if you use this on "
+"anything real you are insane). The default value is B<forum>. You must also "
+"add a B<[user_handler]> section, see below."
+msgstr ""
+"Назва обробника користувачів для використання. В даний час доступні "
+"обробники користувачів  B<forum> (для під'єднання wesnothd до бази форуму "
+"phpbb) і B<sample> (приклад реалізації інтерфейсу обробника користувачів, "
+"якщо ви використовуєте його на чомусь реальному, ви божевільні). Типовим "
+"значенням є B<forum>. Необхідно також додати секцію B<[user_handler]>, див. "
+"нижче."
+
+#. type: SS
+#: ../../doc/man/wesnothd.6:174
+#, no-wrap
+msgid "Global tags:"
+msgstr "Глобальні теги:"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:179
+msgid ""
+"B<[redirect]> A tag to specify a server to redirect certain client versions "
+"to."
+msgstr ""
+"B<[redirect]> Тег, який вказує перенаправлення на сервер для певної версії "
+"клієнта."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:180
+#, no-wrap
+msgid "B<host>"
+msgstr "B<host>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:183
+msgid "The address of the server to redirect to."
+msgstr "Адреса сервера для перенаправлення."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:183
+#, no-wrap
+msgid "B<port>"
+msgstr "B<port>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:186
+msgid "The port to connect to."
+msgstr "Порт для під'єднання."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:186
+#, no-wrap
+msgid "B<version>"
+msgstr "B<version>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:191
+msgid ""
+"A comma separated list of versions to redirect. Behaves the same way as "
+"B<versions_accepted> in regard to wildcard patterns."
+msgstr ""
+"Перелік версій для перенаправлення, розділених комами. При використанні "
+"шаблонів підстановки поводиться аналогічно B<versions_accepted>."
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:195
+msgid ""
+"B<[ban_time]> A tag to define convenient keywords for temporary ban time "
+"lengths."
+msgstr ""
+"B<[ban_time]> Тег, щоб задати зручні ключові слова для часових періодів "
+"тимчасового бану."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:196
+#, no-wrap
+msgid "B<name>"
+msgstr "B<name>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:199
+msgid "The name used to reference the ban time."
+msgstr "Ім'я, що відповідає посиланню на час бану."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:199
+#, no-wrap
+msgid "B<time>"
+msgstr "B<time>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:207
+msgid ""
+"The time length definition.  The format is: %d[%s[%d%s[...]]] where %s is s "
+"(seconds), m (minutes), h (hours), D (days), M (months) or Y (years) and %d "
+"is a number.  If no time modifier is given minutes (m) are assumed.  "
+"Example: B<time=\"1D12h30m\"> results in a ban time of 1 day, 12 hours and "
+"30 minutes."
+msgstr ""
+"Визначення тривалості часу. Формат:  %d[%s[%d%s[...]]] де %s це s (секунди), "
+"m (хвилини), h (години), D (дні), M (місяці) чи Y (роки) а %d це число. Якщо "
+"формат не вказаний, передбачається що час вказано у хвилинах (m). Приклад: "
+"B<time=\"1D12h30m\"> призводить до бану на 1 день, 12 годин і 30 хвилин."
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:213
+msgid ""
+"B<[proxy]> A tag to tell the server to act as a proxy and forward the "
+"connected client's requests to the specified server.  Accepts the same keys "
+"as B<[redirect]>."
+msgstr ""
+"B<[proxy]> Тег вказує серверу працювати в якості проксі і передавати вхідні "
+"запити користувачів на вказаний сервер. Приймає ті ж ключі, що і B<[redirect]"
+">."
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:221
+msgid ""
+"B<[user_handler]> Configures the user handler. Available keys vary depending "
+"on which user handler is set with the B<user_handler> key. If no B<"
+"[user_handler]> section is present in the configuration the server will run "
+"without any nick registration service."
+msgstr ""
+"B<[user_handler]> Налаштовує обробника користувачів. Доступні ключі "
+"відрізняються залежно від обробник, який встановлений ключем "
+"B<user_handler>. Якщо в конфігурації відсутня секція B<[user_handler]>, "
+"сервер буде працювати без служби реєстрації ніків."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:222
+#, no-wrap
+msgid "B<db_host>"
+msgstr "B<db_host>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:225
+msgid "(for user_handler=forum) The hostname of the database server"
+msgstr "(for user_handler=forum) Назва хосту сервера бази даних"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:225
+#, no-wrap
+msgid "B<db_name>"
+msgstr "B<db_name>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:228
+msgid "(for user_handler=forum) The name of the database"
+msgstr "(for user_handler=forum) Назва бази даних"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:228
+#, no-wrap
+msgid "B<db_user>"
+msgstr "B<db_user>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:231
+msgid ""
+"(for user_handler=forum) The name of the user under which to log into the "
+"database"
+msgstr ""
+"(for user_handler=forum) Ім'я користувача, під яким ввійти до бази даних"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:231
+#, no-wrap
+msgid "B<db_password>"
+msgstr "B<db_password>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:234
+msgid "(for user_handler=forum) This user's password"
+msgstr "(for user_handler=forum) Пароль користувача"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:234
+#, no-wrap
+msgid "B<db_users_table>"
+msgstr "B<db_users_table>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:237
+msgid ""
+"(for user_handler=forum) The name of the table in which your phpbb forums "
+"saves its user data. Most likely this will be E<lt>table-prefixE<gt>_users "
+"(e.g. phpbb3_users)."
+msgstr ""
+"(for user_handler=forum) Назва таблиці де ваш phpbb форум зберігає дані про "
+"користувачів. Швидше за все це E<lt>префікс-таблиціE<gt>_users (e.g. "
+"phpbb3_users)."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:237
+#, no-wrap
+msgid "B<db_extra_table>"
+msgstr "B<db_extra_table>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:241
+msgid ""
+"(for user_handler=forum) The name of the table in which wesnothd will save "
+"its own data about users. You will have to create this table manually, e.g.: "
+"B<CREATE TABLE E<lt>table-nameE<gt>(username VARCHAR(255) PRIMARY KEY, "
+"user_lastvisit INT UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) "
+"NOT NULL DEFAULT 0);>"
+msgstr ""
+"(for user_handler=forum) Назва таблиці в якій wesnothd буде зберігати його "
+"власну інформацію про користувачів. Ви повинні створити цю таблицю вручну, "
+"наприклад: B<CREATE TABLE E<lt>назва-таблиціE<gt>(username VARCHAR(255) "
+"PRIMARY KEY, user_lastvisit INT UNSIGNED NOT NULL DEFAULT 0, "
+"user_is_moderator TINYINT(4) NOT NULL DEFAULT 0);>"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:241
+#, no-wrap
+msgid "B<user_expiration>"
+msgstr "B<user_expiration>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:244
+msgid ""
+"(for user_handler=sample) The time after which a registered nick expires (in "
+"days)."
+msgstr ""
+"(for user_handler=sample) Час, після якого зареєстрований нік видаляється (в "
+"днях)."
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:248
+msgid ""
+"B<[mail]> Configures an SMTP server through which the user handler can send "
+"mail. Currently only used by the sample user handler."
+msgstr ""
+"B<[mail]> Налаштовує SMTP-сервер, через який обробник користувача може "
+"відправляти пошту. В даний час використовується лише прикладом обробника "
+"користувачів."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:249
+#, no-wrap
+msgid "B<server>"
+msgstr "B<server>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:252
+msgid "The hostname of the mail server"
+msgstr "Назва хосту поштового сервера"
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:252
+#, no-wrap
+msgid "B<username>"
+msgstr "B<username>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:255
+msgid "The user name under which to log into the mail server."
+msgstr " Ім'я користувача, під яким ввійти до поштового сервера."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:255
+#, no-wrap
+msgid "B<password>"
+msgstr "B<password>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:258
+msgid "This user's password."
+msgstr "Пароль цього користувача."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:258
+#, no-wrap
+msgid "B<from_address>"
+msgstr "B<from_address>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:261
+msgid "The reply-to address of you mail."
+msgstr "Адреса для відповіді (reply-to) вашого листа."
+
+#. type: TP
+#: ../../doc/man/wesnothd.6:261
+#, no-wrap
+msgid "B<mail_port>"
+msgstr "B<mail_port>"
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:264
+msgid "The port on which your mail server is running. Default is 25."
+msgstr "Порт, на якому працює ваш поштовий сервер. Типово це 25."
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:268
+msgid ""
+"Normal exit status is 0 when the server was properly shutdown. An exit "
+"status of 2 indicates an error with the command line options."
+msgstr ""
+"Якщо сервер закінчив роботу правильно, код виходу рівний 0. Код виходу 2 "
+"означає що в параметрах командного рядка були помилки."
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:274
+msgid ""
+"Written by David White E<lt>davidnwhite@verizon.netE<gt>.  Edited by Nils "
+"Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon.netE<gt>, "
+"Soliton E<lt>soliton.de@gmail.comE<gt> and Thomas Baumhauer E<lt>thomas."
+"baumhauer@gmail.comE<gt>.  This manual page was originally written by Cyril "
+"Bouthors E<lt>cyril@bouthors.orgE<gt>."
+msgstr ""
+"Написана Девідом Уайтом (David White) E<lt>davidnwhite@verizon.netE<gt>. "
+"Відредагована Нільсом Кнойпером (Nils Kneuper) E<lt>crazy-ivanovic@gmx."
+"netE<gt>, ott E<lt>ott@gaon.netE<gt>, Soliton E<lt>soliton.de@gmail.comE<gt> "
+"та Томасом Баумхауером (Thomas Baumhauer) E<lt>thomas.baumhauer@gmail."
+"comE<gt>. Початковий автор сторінки - Cyril Bouthors E<lt>cyril@bouthors."
+"orgE<gt>."
+
+#. type: Plain text
+#: ../../doc/man/wesnothd.6:286
+msgid "B<wesnoth>(6)."
+msgstr "B<wesnoth>(6)."
