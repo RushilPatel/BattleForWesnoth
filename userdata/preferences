@@ -1,0 +1,504 @@
+UI_sound=""
+UI_volume=""
+ally_sighted_interrupts=""
+animate_map=""
+ask_delete=""
+auto_save_max=10
+bell_volume=""
+chat_lines=""
+chat_message_aging=""
+chat_timestamp=""
+client_type=""
+color_cursors=no
+completed_campaigns=""
+compress_saves=""
+confirm_load_save_from_different_version=""
+delete_saves=""
+disable_notifications=""
+enable_planning_mode_on_start=""
+encountered_terrain_list="Ce, Ch, Cv, Ft, Gd^Fds, Gd^Fms, Gd^Fp, Gd, Gg^Efm, Gg^Fet, Gg^Ve, Gg, Gll^Fds, Gll^Fp, Gs^Fds, Gs^Fms, Gs^Fp, Gs, Gt, Hh^Fds, Hh^Fms, Hh^Fp, Hh, Ke, Kh, Kv, Rb^Fds, Re^Fds, Re, Vi, Ww^Bw/, Ww^Bw|, Ww, Wwf"
+encountered_units="Elder Mage,Elvish Archer,Elvish Champion,Elvish Fighter,Elvish Ranger,Elvish Scout,Elvish Shaman,Elvish Shyde,Fighter,Goblin Knight,Goblin Pillager,Orcish Assassin,Orcish Crossbowman,Orcish Slayer,Orcish Warlord,Orcish Warrior,Troll,Troll Warrior,Wolf Rider"
+fi_friends_in_game=""
+fi_invert=""
+fi_text=""
+fi_vacant_slots=""
+filter_lobby=""
+flip_time=""
+floating_labels=""
+friends=""
+fullscreen=no
+grid=no
+hide_whiteboard=""
+iconize_list=""
+idle_anim=""
+idle_anim_rate=""
+joystick_cursor_deadzone=""
+joystick_cursor_threshold=""
+joystick_cursor_xaxis_num=""
+joystick_cursor_yaxis_num=""
+joystick_num_cursor_xaxis=""
+joystick_num_cursor_yaxis=""
+joystick_support_enabled=""
+lobby_auto_open_whisper_windows=""
+lobby_joins=""
+lobby_playerlist_group_players=""
+lobby_sounds=""
+lobby_whisper_friends_only=""
+local_tod_lighting=""
+locale=""
+login="@playertest@"
+login_is_wrapped=yes
+middle_click_scrolls=""
+mouse_scrolling=""
+music=no
+music_volume=""
+new_lobby=""
+password=""
+ping_timeout=""
+remember_password=no
+remember_timer_settings=""
+sample_rate=""
+save_replays=""
+scroll=81
+scroll_threshold=10
+scroll_to_action=yes
+scroll_when_mouse_outside=""
+show_ai_moves=""
+show_all_units_in_help=""
+show_combat=""
+show_haloes=yes
+show_side_colors=""
+skip_mp_replay=no
+sort_list=""
+sound=no
+sound_buffer_size=""
+sound_volume=""
+startup_effect=""
+theme=""
+turbo=yes
+turbo_speed=16
+turn_bell=""
+turn_dialog=""
+unit_standing_animations=""
+use_twelve_hour_clock_format=""
+xwindowsize=1600
+ywindowsize=847
+[history]
+	[mp_user_name_history]
+		[line]
+			message="player"
+		[/line]
+		[line]
+			message="playertest"
+		[/line]
+	[/mp_user_name_history]
+[/history]
+[hotkey]
+	alt=no
+	cmd=no
+	command="cycle"
+	ctrl=no
+	key="n"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="cycleback"
+	ctrl=no
+	key="n"
+	shift=yes
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="holdposition"
+	ctrl=no
+	key="space"
+	shift=yes
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="endunitturn"
+	ctrl=no
+	key="space"
+	shift=no
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="leader"
+	ctrl=no
+	key="l"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="undo"
+	ctrl=no
+	key="u"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="redo"
+	ctrl=no
+	key="r"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="zoomin"
+	ctrl=no
+	key="+"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="zoomout"
+	ctrl=no
+	key="-"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="zoomdefault"
+	ctrl=no
+	key=0
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="fullscreen"
+	ctrl=yes
+	key="f"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="accelerated"
+	ctrl=yes
+	key="a"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="describeunit"
+	ctrl=no
+	key="d"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="renameunit"
+	ctrl=yes
+	key="n"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="save"
+	ctrl=yes
+	key="s"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="load"
+	ctrl=yes
+	key="o"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="recruit"
+	ctrl=yes
+	key="r"
+[/hotkey]
+[hotkey]
+	alt=yes
+	cmd=no
+	command="repeatrecruit"
+	ctrl=yes
+	key="r"
+[/hotkey]
+[hotkey]
+	alt=yes
+	cmd=no
+	command="recall"
+	ctrl=no
+	key="r"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="endturn"
+	ctrl=yes
+	key="space"
+	shift=no
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="toggleellipses"
+	ctrl=yes
+	key="e"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="togglegrid"
+	ctrl=yes
+	key="g"
+[/hotkey]
+[hotkey]
+	alt=yes
+	cmd=no
+	command="statustable"
+	ctrl=no
+	key="s"
+[/hotkey]
+[hotkey]
+	alt=yes
+	cmd=no
+	command="mute"
+	ctrl=yes
+	key="m"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="speak"
+	ctrl=no
+	key="m"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="createunit"
+	ctrl=no
+	key="c"
+	shift=yes
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="changeside"
+	ctrl=no
+	key="u"
+	shift=yes
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="preferences"
+	ctrl=yes
+	key="p"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="objectives"
+	ctrl=yes
+	key="j"
+[/hotkey]
+[hotkey]
+	alt=yes
+	cmd=no
+	command="unitlist"
+	ctrl=no
+	key="u"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="statistics"
+	ctrl=no
+	key="s"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="quit"
+	ctrl=yes
+	key="q"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="labelteamterrain"
+	ctrl=yes
+	key="l"
+[/hotkey]
+[hotkey]
+	alt=yes
+	cmd=no
+	command="labelterrain"
+	ctrl=no
+	key="l"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="clearlabels"
+	ctrl=yes
+	key="c"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="showenemymoves"
+	ctrl=yes
+	key="v"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="bestenemymoves"
+	ctrl=yes
+	key="b"
+[/hotkey]
+[hotkey]
+	command="replayshoweverything"
+	key="__none__"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="wbexecuteaction"
+	ctrl=no
+	key="y"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="wbexecuteallactions"
+	ctrl=yes
+	key="y"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="wbdeleteaction"
+	ctrl=no
+	key="h"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="wbbumpupaction"
+	ctrl=no
+	key="page up"
+	shift=no
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="wbbumpdownaction"
+	ctrl=no
+	key="page down"
+	shift=no
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="wbsupposedead"
+	ctrl=no
+	key="i"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="updateshroud"
+	ctrl=no
+	key="s"
+	shift=yes
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="continue"
+	ctrl=no
+	key="t"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="search"
+	ctrl=no
+	key="/"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="speaktoally"
+	ctrl=yes
+	key="m"
+[/hotkey]
+[hotkey]
+	alt=yes
+	cmd=no
+	command="speaktoall"
+	ctrl=no
+	key="m"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="help"
+	ctrl=no
+	key="f1"
+	shift=no
+[/hotkey]
+[hotkey]
+	alt=yes
+	cmd=no
+	command="chatlog"
+	ctrl=no
+	key="c"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="command"
+	ctrl=no
+	key=":"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="aiformula"
+	ctrl=no
+	key="f"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="clearmessages"
+	ctrl=yes
+	key="x"
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="title_screen__next_tip"
+	ctrl=no
+	key="right"
+	shift=no
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="title_screen__previous_tip"
+	ctrl=no
+	key="left"
+	shift=no
+[/hotkey]
+[hotkey]
+	alt=no
+	cmd=no
+	command="global__helptip"
+	ctrl=no
+	key="f10"
+	shift=no
+[/hotkey]
