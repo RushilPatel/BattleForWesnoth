@@ -1,3 +1,7 @@
+Worked on feature requests and bug fixes posted on http://bugs.wesnoth.org
+Fixed Item IDs: 19328, 19755, 13511, 19223, 20036
+
+
 BattleForWesnoth
 ================
 The game's license is described in COPYING.  Note that for artwork and
